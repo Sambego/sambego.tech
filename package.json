@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "postcss-cli": "^6.0.1",
+    "postcss-import": "^12.0.1"
+  },
+  "name": "sambego.tech",
+  "version": "1.0.0",
+  "main": "index.html",
+  "author": "Sam Bellen",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build:dev": "postcss css/styles.css --base css --dir ./ -w",
+    "build:prod": "postcss css/styles.css --base css --dir ./ -w"
+  }
+}
