@@ -11,6 +11,6 @@
   "private": false,
   "scripts": {
     "build:dev": "postcss css/styles.css --base css --dir ./ -w",
-    "build:prod": "postcss css/styles.css --base css --dir ./ -w"
+    "build:prod": "postcss css/styles.css --base css --dir ./"
   }
 }
