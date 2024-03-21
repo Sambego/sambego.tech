@@ -6,6 +6,91 @@
       talk: "Sponsorship",
     },
     {
+      name: "DevSum Oslo",
+      date: 1693243200,
+      talk: "Security Panel",
+    },
+    {
+      name: "DevSum Oslo",
+      date: 1693243200,
+      talk: "Can't Touch This!",
+    },
+    {
+      name: "Developer Day New York",
+      date: 1689667200,
+      talk: "Keynote",
+    },
+    {
+      name: "KubeCon EU Amsterdam",
+      date: 1689724800,
+      talk: "Sponsorship",
+    },
+    {
+      name: "AWS Summit Paris",
+      date: 1677350400,
+      talk: "Sponsorship",
+    },
+    {
+      name: "NDC London",
+      date: 1674672000,
+      talk: "Sponsorship",
+    },
+    {
+      name: "NDC Security",
+      date: 1674048000,
+      talk: "Sponsorship",
+    },
+    {
+      name: "NG-Rome",
+      date: 1672627200,
+      talk: "Can't touch this!",
+    },
+    {
+      name: "Modern Frontends Live",
+      date: 1668624000,
+      talk: "No Way, JOSE!",
+    },
+    {
+      name: "Oktane",
+      date: 1668019200,
+      talk: "Passwords are so 1990!",
+    },
+    {
+      name: "Oktane",
+      date: 1667932800,
+      talk: "Developer Keynote",
+    },
+    {
+      name: "NG-DE",
+      date: 1665052800,
+      talk: "Now Way, JOSE!",
+    },
+    {
+      name: "Developer Day Berlin",
+      date: 1664966400,
+      talk: "Passwords are so 1990!",
+    },
+    {
+      name: "Developer Day London",
+      date: 1661856000,
+      talk: "Passwords are so 1990!",
+    },
+    {
+      name: "DDD Perth",
+      date: 1662681600,
+      talk: "Sponsorship",
+    },
+    {
+      name: "Developer Day Sydney",
+      date: 1662480000,
+      talk: "Passwords are so 1990!",
+    },
+    {
+      name: "Developer Day Seatle",
+      date: 1661347200,
+      talk: "Passwords are so 1990!",
+    },
+    {
       name: "NodeTLV",
       date: 1659168000,
       talk: "No way, JOSE!",
@@ -667,8 +752,7 @@
 
   const createWho = () => {
     const headshot = "sam.png";
-    const bio =
-      "I am a Pricipal Developer Advocate, currently working at Auth0 by Okta. I love everything identity, and explaining complex topics in a clear and understandable way. You can find me on stage at developer events worldwide, or simply having great conversations in the hallway. Feel free to send me cat pictures!";
+    const bio = `I am a Pricipal Developer Advocate, currently working at Auth0 by Okta. I love everything identity, and explaining complex topics in a clear and understandable way. You can find me on stage at developer events worldwide, or simply having great conversations in the hallway. I've been recognized as a <a href="https://developers.google.com/profile/u/sambego" alt="My Google Developer Profile">Google Developer Expert (GDE)</a> in the domains of Web Technologies and Identity. Feel free to send me cat pictures!`;
     const wrapper = document.createElement("div");
     wrapper.classList.add("bio");
     wrapper.innerHTML = `<img src="${headshot}" alt="Sam Bellen" class="bio-picture" /><p class="bio-about">${bio}</div>`;
