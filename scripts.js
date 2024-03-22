@@ -830,7 +830,7 @@
 
   const createInstall = () => {
     const instruction = document.createElement("p");
-    instruction.innerHTML = `Did you know I am NPM installable? Simply run <code>npx @sambego/about-me</code> in you terminal, and find the links to my slide-decks and socials.`;
+    instruction.innerHTML = `Did you know I am NPM installable? Simply run <code>npx @sambego/about-me</code> in your terminal, and find the links to my slide-decks, expriments and socials.`;
     return instruction;
   };
 
