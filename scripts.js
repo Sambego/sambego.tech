@@ -674,7 +674,7 @@
     },
     {
       name: "Authorization, Access Control",
-      website: "https:// ac.sambego.tech",
+      website: "https://ac.sambego.tech",
     },
   ];
   const longestSlideLink = Math.max(
