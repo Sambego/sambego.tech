@@ -922,4 +922,6 @@
 
   output.innerHTML = "";
   output.append(createSection("sambego help", createHelp()));
+
+  console.log('👀');
 })();
