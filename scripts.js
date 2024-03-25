@@ -874,6 +874,17 @@
     return message;
   };
 
+  const retro = () => {
+    const doc = document.querySelector("html");
+    const isRetro = doc.classList.contains("retro");
+    const message = document.createElement("p");
+    message.innerHTML = isRetro
+      ? `Fine, we'll go back to ${new Date().getFullYear()}`
+      : `If my calculations are correct, when this baby hits 88 miles per hour, you're gonna see some serious sh*t!`;
+    doc.classList.toggle("retro");
+    return message;
+  };
+
   const processInput = (input) => {
     switch (true) {
       case input.includes("who"):
@@ -889,6 +900,8 @@
         return createInstall();
       case input.includes("rm -rf ."):
         return destroy();
+      case input.includes("back to the future"):
+        return retro();
       default:
         return createHelp();
     }
