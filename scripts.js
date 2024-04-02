@@ -3,7 +3,7 @@
     {
       name: "CityJS London",
       date: 1712142000,
-      talk: "Sponsorship",
+      talk: "Can't Touch This!",
     },
     {
       name: "DevSum Oslo",
