@@ -751,7 +751,7 @@
   };
 
   const createWho = () => {
-    const headshot = "sam.png";
+    const headshot = "sam.jpeg";
     const bio = `I am a Pricipal Developer Advocate, currently working at Auth0 by Okta. I love everything identity, and explaining complex topics in a clear and understandable way. You can find me on stage at developer events worldwide, or simply having great conversations in the hallway. I've been recognized as a <a href="https://developers.google.com/profile/u/sambego" alt="My Google Developer Profile">Google Developer Expert (GDE)</a> in the domains of Web Technologies, Security, Privacy, Payments, and Identity. Feel free to send me cat pictures!`;
     const wrapper = document.createElement("div");
     wrapper.classList.add("bio");
