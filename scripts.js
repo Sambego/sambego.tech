@@ -1,6 +1,11 @@
 (() => {
   const events = [
     {
+      name: "Okta Developer  Day",
+      date: 1727164800,
+      talk: "Paradigm shift, moving beyond roles and permissions to a fine-grained access control",
+    },
+    {
       name: "CityJS London",
       date: 1712142000,
       talk: "Can't Touch This!",
