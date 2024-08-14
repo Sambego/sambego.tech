@@ -700,6 +700,35 @@
     ...experimentLinks.map((link) => link.name.length),
   );
 
+  const contentLinks = [{
+    blog: "Auth0",
+    name: "What Are Refresh Tokens and How to Use Them Securely",
+    website: "https://auth0.com/blog/refresh-tokens-what-are-they-and-when-to-use-them/",
+  }, {
+    blog: "Vercel",
+    name: "Securing data in your Next.js app with Okta and OpenFGA",
+    website: "https://vercel.com/blog/securing-data-in-your-next-js-app-with-okta-and-openfga"
+  }, {
+    blog: "Auth0",
+    name: "Fine-Grained Authorization in your Next.js application using Okta FGA",
+    website: "https://auth0.com/blog/fine-grained-access-control-with-okta-fga-nextjs/"
+  }, {
+    blog: "Auth0",
+    name: "An Overview of Commonly Used Access Control Paradigms",
+    website: "https://auth0.com/blog/an-overview-of-commonly-used-access-control-paradigms/"
+  }, {
+    blog: "Auth0",
+    name: "A Look at WebAuthn Resident Credentials",
+    website: "https://auth0.com/blog/a-look-at-webauthn-resident-credentials/"
+  }, {
+    blog: "Auth0",
+    name: "Enhancing webauthn.me with the Online Debugger Tool",
+    website: "https://auth0.com/blog/enhancing-webauthn-me-with-the-online-debugger-tool/"
+  }];
+  const longestBlog = Math.max(
+    ...contentLinks.map((link) => link.blog.length),
+  );
+
   const commands = [
     {
       name: "sambego who",
@@ -712,6 +741,10 @@
     {
       name: "sambego where --past",
       description: "find out where I have been in the past",
+    },
+    {
+      name: "sambego read",
+      description: "an overview of my technical blog-posts"
     },
     {
       name: "sambego contact",
@@ -839,6 +872,19 @@
     return instruction;
   };
 
+  const createContent = () => {
+    const list = document.createElement("ul");
+    
+    contentLinks.forEach((content) => {
+      const item = document.createElement("li");
+      item.classList.add("spaces");
+      item.innerHTML = padString(`[${content.blog}]`, longestBlog+4) + `<a title${content.nama} href="${content.website}">${content.name}</a>`;
+      list.append(item);
+    });
+
+    return list;
+  };
+
   const createHelp = () => {
     const list = document.createElement("ul");
     commands.forEach((command) => {
@@ -899,6 +945,8 @@
           return createWhere(true);
         }
         return createWhere();
+      case input.includes("read"): 
+        return createContent()
       case input.includes("contact"):
         return createContact();
       case input.includes("install"):
