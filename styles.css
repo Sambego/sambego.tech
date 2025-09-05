@@ -7,7 +7,6 @@
   --background-color: var(--black);
   --text-color: var(--white);
   --link-color: var(--green);
-
 }
 
 * {
@@ -28,6 +27,30 @@ body {
 body {
   padding: 2rem;
   font-size: 1.6rem;
+  line-height: 1;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.ascii-table,
+.ascii-art {
+  font-family: "Courier New", Courier, monospace;
+  white-space: pre;
+  overflow-x: auto;
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+}
+
+.ascii-art {
+  font-size: .8em;
+}
+
+.ascii-table {
+  line-height: 0.5;
 }
 
 a {
@@ -38,4 +61,63 @@ a {
 
 a:hover {
   border-bottom: none;
+  background-color: var(--link-color);
+  color: var(--black);
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+  body {
+    padding: 1rem;
+    font-size: 1.4rem;
+  }
+
+  .ascii-table,
+  .ascii-art {
+    font-size: 0.9em;
+    overflow-x: auto;
+  }
+
+  .ascii-art {
+    font-size: .7em;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+  }
+
+  .ascii-table,
+  .ascii-art{
+    font-size: 0.8em;
+    overflow-x: auto;
+  }
+
+  .ascii-art {
+    font-size: .6em;
+  }
+}
+
+/* Print styles */
+@media print {
+  body {
+    background: white;
+    color: black;
+    font-size: 12pt;
+  }
+
+  .container {
+    max-width: none;
+  }
+
+  a {
+    color: black;
+    border-bottom: none;
+  }
 }
