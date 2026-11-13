@@ -26,14 +26,44 @@ async function resolveRefs(value, base) {
 const escape = (text) =>
   String(text).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
-// Pretty-printed JSON with URL strings turned into links (quotes stay outside the link).
-function renderJson(data) {
-  return escape(JSON.stringify(data, null, 2)).replace(
-    /&quot;((?:https?:|mailto:)(?:(?!&quot;)[^\s\\])+)&quot;/g,
-    (_, url) => {
-      const target = url.startsWith("mailto:") ? "" : ' target="_blank" rel="noopener"';
-      return `&quot;<a href="${url}"${target}>${url}</a>&quot;`;
-    },
+const indent = (depth) => "  ".repeat(depth);
+
+// A JSON primitive; URL strings become links (quotes stay outside the link).
+function renderValue(value) {
+  if (typeof value !== "string") return escape(JSON.stringify(value));
+  const inner = escape(JSON.stringify(value).slice(1, -1));
+  if (!/^(https?:|mailto:)/.test(value)) return `&quot;${inner}&quot;`;
+  const target = value.startsWith("mailto:") ? "" : ' target="_blank" rel="noopener"';
+  return `&quot;<a href="${escape(value)}"${target}>${inner}</a>&quot;`;
+}
+
+// Pretty-printed JSON, one element per line. Objects and arrays are
+// <details> elements, so they can be collapsed without any JavaScript.
+function renderJson(value, depth = 0, key, last = true) {
+  const prefix = indent(depth) + (key === undefined ? "" : `${escape(JSON.stringify(key))}: `);
+  const comma = last ? "" : ",";
+
+  if (!value || typeof value !== "object") {
+    return `<div class="line">${prefix}${renderValue(value)}${comma}</div>`;
+  }
+
+  const isArray = Array.isArray(value);
+  const [open, close] = isArray ? ["[", "]"] : ["{", "}"];
+  const entries = isArray ? value.map((item) => [undefined, item]) : Object.entries(value);
+  if (!entries.length) return `<div class="line">${prefix}${open}${close}${comma}</div>`;
+
+  const noun = isArray ? "item" : "key";
+  const count = `${entries.length} ${noun}${entries.length === 1 ? "" : "s"}`;
+  const children = entries
+    .map(([childKey, child], i) => renderJson(child, depth + 1, childKey, i === entries.length - 1))
+    .join("");
+
+  return (
+    `<details open style="--depth: ${depth}">` +
+    `<summary class="line">${prefix}${open}<span class="collapsed">…${close}${comma} <span class="count">// ${count}</span></span></summary>` +
+    children +
+    `<div class="line">${indent(depth)}${close}${comma}</div>` +
+    `</details>`
   );
 }
 
@@ -85,7 +115,7 @@ const html = `<!doctype html>
 </head>
 
 <body>
-  <pre>${renderJson(data)}</pre>
+  <main class="json">${renderJson(data)}</main>
 </body>
 </html>
 `;

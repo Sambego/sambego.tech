@@ -5,14 +5,56 @@ body {
   color: #fff;
 }
 
-pre {
-  margin: 0;
-  padding: 8px;
+.json {
+  /* Left padding leaves room for the collapse toggles. */
+  padding: 8px 8px 8px calc(8px + 2ch);
   font-family: ui-monospace, Menlo, Monaco, Consolas, "Courier New", monospace;
   font-size: 13px;
   line-height: 1.4;
+}
+
+.line {
   white-space: pre-wrap;
   word-break: break-word;
+}
+
+summary {
+  position: relative;
+  display: block;
+  list-style: none;
+  cursor: pointer;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Toggle sits in the gutter just left of the line's indentation. */
+summary::before {
+  content: "▾";
+  position: absolute;
+  left: calc(var(--depth) * 2ch - 1.5ch);
+  color: #65737e;
+}
+
+details:not([open]) > summary::before {
+  content: "▸";
+}
+
+summary:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+summary:focus-visible {
+  outline: 1px dotted #65737e;
+}
+
+details[open] > summary .collapsed {
+  display: none;
+}
+
+.count {
+  color: #65737e;
 }
 
 a {
@@ -29,5 +71,9 @@ a:hover {
   body {
     background: #fff;
     color: #000;
+  }
+
+  summary::before {
+    content: none;
   }
 }
