@@ -1,5 +1,60 @@
 [
   {
+    "event": "code.talks 2026",
+    "date": "2026-11-04",
+    "title": "Beyond Legacy ROPC: Modern Impersonation & Session Delegation with OAuth 2.1 & Auth0"
+  },
+  {
+    "event": "PHP Antwerp",
+    "date": "2026-10-29",
+    "title": "Bearer of Good News"
+  },
+  {
+    "event": "Techorama Netherlands 2026",
+    "date": "2026-10-28",
+    "title": "Bearer of Good News"
+  },
+  {
+    "event": "AI Week Frankfurt",
+    "date": "2026-10-27",
+    "title": "From Zero to Secure: Implementing OAuth and Identity in Model Context Protocol (MCP)"
+  },
+  {
+    "event": "London Dev_Night",
+    "date": "2026-09-10",
+    "title": "Stop registering, start linking!"
+  },
+  {
+    "event": "JavaZone 2026",
+    "date": "2026-09-02",
+    "title": "Bearer of Good News"
+  },
+  {
+    "event": "Vercel Ship London 2026",
+    "date": "2026-06-17",
+    "title": "Don't Give Your Agent the Master Key"
+  },
+  {
+    "event": "Devoxx France 2026",
+    "date": "2026-04-23",
+    "title": "Bearer of Good News"
+  },
+  {
+    "event": "dotAI 2025",
+    "date": "2025-11-06",
+    "title": "Stop registering, start linking!"
+  },
+  {
+    "event": "All Things Open 2025",
+    "date": "2025-10-13",
+    "title": "Paradigm Shift!"
+  },
+  {
+    "event": "Jfokus 2025",
+    "date": "2025-02-04",
+    "title": "Can't Touch This!"
+  },
+  {
     "event": "Okta Developer Day",
     "date": "2024-09-24",
     "title": "Paradigm shift, moving beyond roles and permissions to a fine-grained access control."
