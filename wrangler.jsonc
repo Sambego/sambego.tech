@@ -15,9 +15,10 @@
     "run_worker_first": true
   },
   "routes": [
+    { "pattern": "sambego.tech", "custom_domain": true },
     { "pattern": "talks.sambego.tech", "custom_domain": true }
   ],
-  // Without this, `wrangler dev` treats every local request as talks.sambego.tech.
+  // Without this, `wrangler dev` rewrites every local request to the first route's host.
   "dev": { "host": "localhost" },
   "workers_dev": true,
   "preview_urls": true
