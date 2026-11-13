@@ -1,123 +1,33 @@
-:root {
-  --black: #1b2b34;
-  --gray: #c0c5ce;
-  --white: #d8dee9;
-  --green: #99c794;
-
-  --background-color: var(--black);
-  --text-color: var(--white);
-  --link-color: var(--green);
-}
-
-* {
-  box-sizing: border-box;
-}
-
 html,
 body {
-  background: var(--background-color);
-  height: 100vh;
   margin: 0;
-  padding: 0;
-  font-size: 10px;
-  font-family: "Courier New", Courier, monospace;
-  color: var(--text-color);
+  background: #1b2b34;
+  color: #fff;
 }
 
-body {
-  padding: 2rem;
-  font-size: 1.6rem;
-  line-height: 1;
-}
-
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.ascii-table,
-.ascii-art {
-  font-family: "Courier New", Courier, monospace;
-  white-space: pre;
-  overflow-x: auto;
+pre {
   margin: 0;
-  padding: 0;
-  color: var(--text-color);
-}
-
-.ascii-art {
-  font-size: .8em;
-}
-
-.ascii-table {
-  line-height: 0.6;
+  padding: 8px;
+  font-family: ui-monospace, Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-size: 13px;
+  line-height: 1.4;
+  white-space: pre-wrap;
+  word-break: break-word;
 }
 
 a {
-  color: var(--link-color);
+  color: inherit;
   text-decoration: none;
-  border-bottom: 1px dotted var(--link-color);
 }
 
 a:hover {
-  border-bottom: none;
-  background-color: var(--link-color);
-  color: var(--black);
+  text-decoration: underline;
 }
 
-/* Responsive design */
-@media screen and (max-width: 768px) {
-  body {
-    padding: 1rem;
-    font-size: 1.4rem;
-  }
-
-  .ascii-table,
-  .ascii-art {
-    font-size: 0.9em;
-    overflow-x: auto;
-  }
-
-  .ascii-art {
-    font-size: .7em;
-  }
-
-  .container {
-    max-width: 100%;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  body {
-    padding: 0.5rem;
-    font-size: 1.2rem;
-  }
-
-  .ascii-table,
-  .ascii-art{
-    font-size: 0.8em;
-    overflow-x: auto;
-  }
-
-  .ascii-art {
-    font-size: .6em;
-  }
-}
-
-/* Print styles */
 @media print {
+  html,
   body {
-    background: white;
-    color: black;
-    font-size: 12pt;
-  }
-
-  .container {
-    max-width: none;
-  }
-
-  a {
-    color: black;
-    border-bottom: none;
+    background: #fff;
+    color: #000;
   }
 }

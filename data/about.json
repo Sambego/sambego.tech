@@ -1,0 +1,14 @@
+{
+  "name": "Sam Bellen",
+  "description": "Sam is a Principal Developer Advocate at Auth0 with a love for Identity.",
+  "job": {
+    "title": "Principal Developer Advocate",
+    "company": "Auth0",
+    "url": "https://auth0.com"
+  },
+  "contact": "mailto:hey@sambego.be",
+  "bluesky": "https://bsky.app/profile/sambego.tech",
+  "linkedin": "https://www.linkedin.com/in/sambellen/",
+  "twitter": "https://twitter.com/sambego",
+  "picture": "https://sambego.tech/sam.jpeg"
+}

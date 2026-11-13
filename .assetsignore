@@ -1,11 +1,9 @@
 .git
-.github
-.cloudflare
-node_modules
-wrangler.jsonc
-netlify.toml
-.assetsignore
+.wrangler
 .DS_Store
-README.md
+.assetsignore
+wrangler.jsonc
+build.mjs
+.gitignore
 package.json
-package-lock.json
+src

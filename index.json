@@ -1,0 +1,19 @@
+{
+  "title": "Sam Bellen | Sambego",
+  "url": "https://sambego.tech",
+  "about": {
+    "$ref": "./data/about.json"
+  },
+  "slides": {
+    "$ref": "./data/slides.json"
+  },
+  "experiments": {
+    "$ref": "./data/experiments.json"
+  },
+  "talks": {
+    "$ref": "./data/talks.json"
+  },
+  "blogs": {
+    "$ref": "./data/blogs.json"
+  }
+}

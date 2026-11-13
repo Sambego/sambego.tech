@@ -1,0 +1,632 @@
+[
+  {
+    "event": "Okta Developer Day",
+    "date": "2024-09-24",
+    "title": "Paradigm shift, moving beyond roles and permissions to a fine-grained access control."
+  },
+  {
+    "event": "CityJS London",
+    "date": "2024-04-03",
+    "title": "Can't Touch This!"
+  },
+  {
+    "event": "DevSum Oslo",
+    "date": "2023-08-28",
+    "title": "Security Panel"
+  },
+  {
+    "event": "DevSum Oslo",
+    "date": "2023-08-28",
+    "title": "Can't Touch This!"
+  },
+  {
+    "event": "KubeCon EU Amsterdam",
+    "date": "2023-07-19",
+    "title": "Sponsorship"
+  },
+  {
+    "event": "Developer Day New York",
+    "date": "2023-07-18",
+    "title": "Keynote"
+  },
+  {
+    "event": "AWS Summit Paris",
+    "date": "2023-02-25",
+    "title": "Sponsorship"
+  },
+  {
+    "event": "NDC London",
+    "date": "2023-01-25",
+    "title": "Sponsorship"
+  },
+  {
+    "event": "NDC Security",
+    "date": "2023-01-18",
+    "title": "Sponsorship"
+  },
+  {
+    "event": "NG-Rome",
+    "date": "2023-01-02",
+    "title": "Can't touch this!"
+  },
+  {
+    "event": "Modern Frontends Live",
+    "date": "2022-11-16",
+    "title": "No Way, JOSE!"
+  },
+  {
+    "event": "Oktane",
+    "date": "2022-11-09",
+    "title": "Passwords are so 1990!"
+  },
+  {
+    "event": "Oktane",
+    "date": "2022-11-08",
+    "title": "Developer Keynote"
+  },
+  {
+    "event": "NG-DE",
+    "date": "2022-10-06",
+    "title": "Now Way, JOSE!"
+  },
+  {
+    "event": "Developer Day Berlin",
+    "date": "2022-10-05",
+    "title": "Passwords are so 1990!"
+  },
+  {
+    "event": "DDD Perth",
+    "date": "2022-09-09",
+    "title": "Sponsorship"
+  },
+  {
+    "event": "Developer Day Sydney",
+    "date": "2022-09-06",
+    "title": "Passwords are so 1990!"
+  },
+  {
+    "event": "Developer Day London",
+    "date": "2022-08-30",
+    "title": "Passwords are so 1990!"
+  },
+  {
+    "event": "Developer Day Seatle",
+    "date": "2022-08-24",
+    "title": "Passwords are so 1990!"
+  },
+  {
+    "event": "NodeTLV",
+    "date": "2022-07-30",
+    "title": "No way, JOSE!"
+  },
+  {
+    "event": "JSConf Budapest",
+    "date": "2022-06-02",
+    "title": "No way, JOSE!"
+  },
+  {
+    "event": "NG India",
+    "date": "2022-05-21",
+    "title": "TBD"
+  },
+  {
+    "event": "Devsum Stockholm",
+    "date": "2022-05-19",
+    "title": "Passwords are so 1990!"
+  },
+  {
+    "event": "DevDays Vilnius",
+    "date": "2022-04-21",
+    "title": "No Way, JOSE!"
+  },
+  {
+    "event": "JSDay Verona",
+    "date": "2022-04-16",
+    "title": "No Way, JOSE!"
+  },
+  {
+    "event": "JSDay Verona",
+    "date": "2022-04-15",
+    "title": "Passwords are so 1990"
+  },
+  {
+    "event": "Javaland",
+    "date": "2022-03-15",
+    "title": "No Way, JOSE!"
+  },
+  {
+    "event": "PHP UK",
+    "date": "2022-02-16",
+    "title": "Passwords are so 1990"
+  },
+  {
+    "event": "JSPoland",
+    "date": "2022-01-26",
+    "title": "Passwords are so 1990"
+  },
+  {
+    "event": "NGPoland",
+    "date": "2022-01-25",
+    "title": "No Way, JOSE!"
+  },
+  {
+    "event": "NDC Oslo",
+    "date": "2021-12-01",
+    "title": "Passwords are so 1990!"
+  },
+  {
+    "event": "Computer Futures meetup",
+    "date": "2021-10-12",
+    "title": "Knock knock, who's there?"
+  },
+  {
+    "event": "EnterJS (Online)",
+    "date": "2021-09-29",
+    "title": "No way, JOSE!"
+  },
+  {
+    "event": "DevBreak France",
+    "date": "2021-09-08",
+    "title": "No way, JOSE!"
+  },
+  {
+    "event": "Front Conference Zurich",
+    "date": "2021-08-25",
+    "title": "No way, JOSE!"
+  },
+  {
+    "event": "Manchester Node.js meetup (Online)",
+    "date": "2021-06-30",
+    "title": "Knock knock, who's there?"
+  },
+  {
+    "event": "React Norway (Online)",
+    "date": "2021-06-09",
+    "title": "Passwords are so 1990!"
+  },
+  {
+    "event": "Codemotion Spring (Online)",
+    "date": "2021-05-18",
+    "title": "No way, JOSE!"
+  },
+  {
+    "event": "API Days Helsinki (Online)",
+    "date": "2021-03-15",
+    "title": "That's out of scope!"
+  },
+  {
+    "event": "JS Monthly London meetup (Online)",
+    "date": "2021-01-27",
+    "title": "No way, JOSE!"
+  },
+  {
+    "event": "JS Poland (Online)",
+    "date": "2020-12-20",
+    "title": "Knock knock, who's there?"
+  },
+  {
+    "event": "IPC Munich (Online)",
+    "date": "2020-12-20",
+    "title": "Passwords are so 1990!"
+  },
+  {
+    "event": "Frontend Con (Online)",
+    "date": "2020-12-08",
+    "title": "No way, JOSE!"
+  },
+  {
+    "event": "API Days Paris (Online)",
+    "date": "2020-12-07",
+    "title": "That's out of scope!"
+  },
+  {
+    "event": "APIDays London (Online)",
+    "date": "2020-10-27",
+    "title": "That's out of scope!"
+  },
+  {
+    "event": "Devfest Norway (Online)",
+    "date": "2020-10-15",
+    "title": "No way, JOSE!"
+  },
+  {
+    "event": "Chicago Cloud Exchange Conference (Online)",
+    "date": "2020-09-20",
+    "title": "Passwords are so 1990!"
+  },
+  {
+    "event": "CityJS (Online)",
+    "date": "2020-09-13",
+    "title": "Secure that app!"
+  },
+  {
+    "event": "React Week NYC",
+    "date": "2020-07-14",
+    "title": "Passwords are so 1990!"
+  },
+  {
+    "event": "Developer week Nuremberg",
+    "date": "2020-06-29",
+    "title": "Passwords are so 1990!"
+  },
+  {
+    "event": "DevDay Faro",
+    "date": "2020-05-23",
+    "title": "Knock knock, who's there?"
+  },
+  {
+    "event": "JSVid Con (Online)",
+    "date": "2020-05-07",
+    "title": "Passwords are so 1990!"
+  },
+  {
+    "event": "JSFest Kiyv",
+    "date": "2020-04-03",
+    "title": "Passwords are so 1990!"
+  },
+  {
+    "event": "Web Engineering Düsseldorf",
+    "date": "2020-03-10",
+    "title": "No way, JOSE!"
+  },
+  {
+    "event": "Node.TLV",
+    "date": "2020-03-02",
+    "title": "Knock knock, who's there?"
+  },
+  {
+    "event": "ConFoo Montreal",
+    "date": "2020-02-26",
+    "title": "No way, JOSE!"
+  },
+  {
+    "event": "ConFoo Montreal",
+    "date": "2020-02-26",
+    "title": "Passwords are so 1990"
+  },
+  {
+    "event": "DevFest Paris",
+    "date": "2020-02-14",
+    "title": "Passwords are so 1990"
+  },
+  {
+    "event": "JSConf Hawaiʻi",
+    "date": "2020-02-04",
+    "title": "No way, JOSE!"
+  },
+  {
+    "event": "JSConf Japan",
+    "date": "2019-11-30",
+    "title": "Passwords are so 1990"
+  },
+  {
+    "event": "Frontend Connect",
+    "date": "2019-11-26",
+    "title": "Passwords are so 1990"
+  },
+  {
+    "event": "Design Systems London",
+    "date": "2019-11-14",
+    "title": "Workshop: Building your first Design System: from scratch to production"
+  },
+  {
+    "event": "PHP Barcelona",
+    "date": "2019-11-11",
+    "title": "Knock knock, who's there?"
+  },
+  {
+    "event": "JSDay Canarias",
+    "date": "2019-11-08",
+    "title": "Passwords are so 1990"
+  },
+  {
+    "event": "ID4me Summit",
+    "date": "2019-10-17",
+    "title": "Integrating ID4me with Auth0, Giving Full Control Back To The User"
+  },
+  {
+    "event": "Webcamp Zagreb",
+    "date": "2019-10-10",
+    "title": "Passwords are so 1990"
+  },
+  {
+    "event": "Voxxed Days Ticino",
+    "date": "2019-10-05",
+    "title": "Passwords are so 1990"
+  },
+  {
+    "event": "Intersection Conference Milan",
+    "date": "2019-10-01",
+    "title": "Passwords are so 1990"
+  },
+  {
+    "event": "Voxxed Days BANFF",
+    "date": "2019-09-20",
+    "title": "Passwords are so 1990"
+  },
+  {
+    "event": "GrillJS",
+    "date": "2019-09-06",
+    "title": "Passwords are so 1990"
+  },
+  {
+    "event": "Fullstack London",
+    "date": "2019-07-10",
+    "title": "Passwords are so 1990"
+  },
+  {
+    "event": "JSConf Belgium",
+    "date": "2019-06-21",
+    "title": "Passwords are so 1990"
+  },
+  {
+    "event": "Angular Day Verona",
+    "date": "2019-06-14",
+    "title": "Knock knock, who's there? Authenticating your single page apps using JSON Web Tokens."
+  },
+  {
+    "event": "Best of Web Paris",
+    "date": "2019-06-07",
+    "title": "Passwords are so 1990"
+  },
+  {
+    "event": "APIDays Helsinki",
+    "date": "2019-06-04",
+    "title": "Knock knock, who's there? Authenticating your single page apps using JSON Web Tokens."
+  },
+  {
+    "event": "International PHP Conference Berlin",
+    "date": "2019-06-03",
+    "title": "Knock knock, who's there? Authenticating your single page apps using JSON Web Tokens."
+  },
+  {
+    "event": "Voxxed Days Singapore",
+    "date": "2019-05-29",
+    "title": "I didn't know the browser could do that!"
+  },
+  {
+    "event": "Web Engineering Aachen",
+    "date": "2019-05-23",
+    "title": "Passwords are so 1990!"
+  },
+  {
+    "event": "API Days Zurich",
+    "date": "2019-05-21",
+    "title": "Knock knock, who's there? Authenticating your single page apps using JSON Web Tokens."
+  },
+  {
+    "event": "API Days Singapore",
+    "date": "2019-04-23",
+    "title": "Knock knock, who's there? Authenticating your single page apps using JSON Web Tokens."
+  },
+  {
+    "event": "Foss North",
+    "date": "2019-04-08",
+    "title": "Knock knock, who's there? Authenticating your single page apps using JSON Web Tokens."
+  },
+  {
+    "event": "FrontCon Riga",
+    "date": "2019-04-03",
+    "title": "Knock knock, who's there? Authenticating your single page apps using JSON Web Tokens."
+  },
+  {
+    "event": "JS Kongress Munich",
+    "date": "2019-03-12",
+    "title": "Knock knock, who's there? Authenticating your single page apps using JSON Web Tokens."
+  },
+  {
+    "event": "Fronteers Meetup",
+    "date": "2019-03-06",
+    "title": "Passwords are so 1990!"
+  },
+  {
+    "event": "London NodeJS Meetup",
+    "date": "2019-03-05",
+    "title": "Knock knock, who's there? Authenticating your single page apps using JSON Web Tokens."
+  },
+  {
+    "event": "PHP Limburg Meetup",
+    "date": "2019-02-20",
+    "title": "Passwords are so 1990!"
+  },
+  {
+    "event": "c't <webdev> Cologne",
+    "date": "2019-02-06",
+    "title": "Knock knock, who's there? Authenticating your single page apps using JSON Web Tokens."
+  },
+  {
+    "event": "Sthlm.js Stockholm",
+    "date": "2019-02-04",
+    "title": "Passwords are so 1990."
+  },
+  {
+    "event": "Jfokus Stockholm",
+    "date": "2019-02-04",
+    "title": "Knock knock, who's there? Authenticating your single page apps using JSON Web Tokens."
+  },
+  {
+    "event": "DevFest Porto",
+    "date": "2019-01-26",
+    "title": "Passwords are so 1990"
+  },
+  {
+    "event": "Devops Days Tel Aviv",
+    "date": "2018-12-18",
+    "title": "Papers Please! A Non-Dystopian Look at Modern Authentication"
+  },
+  {
+    "event": "API Days Paris",
+    "date": "2018-12-10",
+    "title": "Knock knock, who's there? Authenticating your single page apps using JSON Web Tokens."
+  },
+  {
+    "event": "Ausy meetup Leuven",
+    "date": "2018-12-05",
+    "title": "You might not need a native app for this!"
+  },
+  {
+    "event": "Identity and Security London meetup",
+    "date": "2018-11-29",
+    "title": "Itentity 101"
+  },
+  {
+    "event": "DevFest Trondheim",
+    "date": "2018-11-19",
+    "title": "You might not need a native app for this!"
+  },
+  {
+    "event": "js.talks()",
+    "date": "2018-11-16",
+    "title": "Knock knock, who's there? Authentication SPAs with JWTs."
+  },
+  {
+    "event": "Full Stack Antwerp meetup",
+    "date": "2018-10-24",
+    "title": "Channel your inner rockstar with the web audio API."
+  },
+  {
+    "event": "Guest Lecture AP Hogeschool Antwerp",
+    "date": "2018-10-16",
+    "title": "Securing SPAs with JWTs."
+  },
+  {
+    "event": "London API meetup",
+    "date": "2018-09-18",
+    "title": "A token walks into a SPA."
+  },
+  {
+    "event": "LvivJS",
+    "date": "2018-08-31",
+    "title": "Channel your inner rockstar with the web audio API."
+  },
+  {
+    "event": "FullStack London",
+    "date": "2018-07-11",
+    "title": "Channel your inner rockstar with the web audio API."
+  },
+  {
+    "event": "FrontCon Riga",
+    "date": "2018-06-14",
+    "title": "Channel your inner rockstar with the web audio API."
+  },
+  {
+    "event": "DevSum Stockholm",
+    "date": "2018-05-31",
+    "title": "You might not need a native app for this!"
+  },
+  {
+    "event": "DevDays Vilnius",
+    "date": "2018-05-22",
+    "title": "Channel your inner rockstar with the web audio API."
+  },
+  {
+    "event": "DevDays Vilnius",
+    "date": "2018-05-22",
+    "title": "You might not need a native app for this!"
+  },
+  {
+    "event": "Jfokus",
+    "date": "2018-02-05",
+    "title": "I didn't know the browser could do that!"
+  },
+  {
+    "event": "AmsterdamJS meetup",
+    "date": "2017-12-07",
+    "title": "I didn't know the browser could do that!"
+  },
+  {
+    "event": "NationJS",
+    "date": "2017-12-01",
+    "title": "I didn't know the browser could do that!"
+  },
+  {
+    "event": "NationJS Kick-off",
+    "date": "2017-11-29",
+    "title": "A quick intro to the web-audio API,"
+  },
+  {
+    "event": "madewithlove retreat",
+    "date": "2017-11-20",
+    "title": "Web performance: Building for the other side of the world."
+  },
+  {
+    "event": "International JavaScript Conference",
+    "date": "2017-10-23",
+    "title": "I didn't know the browser could do that!"
+  },
+  {
+    "event": "Creativity Gym, Thomas More college Mechelen",
+    "date": "2017-10-05",
+    "title": "I didn't know the browser could do that!"
+  },
+  {
+    "event": "Mobilization",
+    "date": "2017-10-01",
+    "title": "I didn't know the browser could do that!"
+  },
+  {
+    "event": "Frontend Dev Conf",
+    "date": "2017-09-30",
+    "title": "A deep dive into the web-audio API."
+  },
+  {
+    "event": "Refresh",
+    "date": "2017-09-08",
+    "title": "I didn't know the browser could do that!"
+  },
+  {
+    "event": "Odessa JS",
+    "date": "2017-07-02",
+    "title": "Changing live audio with the web-audio API."
+  },
+  {
+    "event": "Odessa JS",
+    "date": "2017-07-01",
+    "title": "I didn't know the browser could do that!"
+  },
+  {
+    "event": "Fronteers meetup Leuven",
+    "date": "2017-06-22",
+    "title": "I didn't know the browser could do that!"
+  },
+  {
+    "event": "AmsterdamJS",
+    "date": "2017-06-08",
+    "title": "Changing live audio with the web-audio API."
+  },
+  {
+    "event": "Front-Trends",
+    "date": "2017-05-24",
+    "title": "I didn't know the browser could do that!"
+  },
+  {
+    "event": "JSDay Spain",
+    "date": "2017-05-13",
+    "title": "Changing live audio with the web-audio API."
+  },
+  {
+    "event": "PHP Antwerp",
+    "date": "2017-03-29",
+    "title": "I didn't know the browser could do that!"
+  },
+  {
+    "event": "Fronteers meetup Amsterdam",
+    "date": "2016-12-07",
+    "title": "Changing live audio with the web-audio API."
+  },
+  {
+    "event": "Frontend United Gent",
+    "date": "2016-05-26",
+    "title": "Changing live audio with the web-audio API."
+  },
+  {
+    "event": "JSConf Budapest",
+    "date": "2016-05-13",
+    "title": "Changing live audio with the web-audio API."
+  },
+  {
+    "event": "Fronteers meetup Leuven",
+    "date": "2015-11-19",
+    "title": "Changing live audio with the web-audio API."
+  }
+]

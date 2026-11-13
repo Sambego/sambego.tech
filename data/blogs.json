@@ -1,0 +1,68 @@
+[
+  {
+    "title": "Securing AI Document Agents with LlamaIndex and Auth0",
+    "publication": "Auth0",
+    "date": "2026-04-02",
+    "url": "https://auth0.com/blog/securing-ai-documents-llamaindex-auth0/"
+  },
+  {
+    "title": "Handling Third-Party Access Tokens Securely in AI Agents",
+    "publication": "Auth0",
+    "date": "2025-11-04",
+    "url": "https://auth0.com/blog/third-party-access-tokens-secure-ai-agents/"
+  },
+  {
+    "title": "Enrich Auth0 Access Tokens with Auth0 FGA Data",
+    "publication": "Auth0",
+    "date": "2025-03-18",
+    "url": "https://auth0.com/blog/enrich-auth0-access-tokens-with-auth0-fga-data/"
+  },
+  {
+    "title": "An Overview of Commonly Used Access Control Paradigms",
+    "publication": "Auth0",
+    "date": "2024-07-04",
+    "url": "https://auth0.com/blog/an-overview-of-commonly-used-access-control-paradigms/"
+  },
+  {
+    "title": "Securing data in your Next.js app with Okta and OpenFGA",
+    "publication": "Vercel",
+    "date": "2024-05-16",
+    "url": "https://vercel.com/blog/securing-data-in-your-next-js-app-with-okta-and-openfga"
+  },
+  {
+    "title": "Fine-Grained Authorization in your Next.js application using Auth0 FGA",
+    "publication": "Auth0",
+    "date": "2024-04-25",
+    "url": "https://auth0.com/blog/fine-grained-access-control-with-okta-fga-nextjs/"
+  },
+  {
+    "title": "O que são refresh tokens e como usá-los com segurança",
+    "publication": "Auth0",
+    "date": "2022-10-13",
+    "url": "https://auth0.com/blog/pt-refresh-tokens-what-are-they-and-when-to-use-them/"
+  },
+  {
+    "title": "Introducing: Avocado Labs",
+    "publication": "Auth0",
+    "date": "2020-04-24",
+    "url": "https://auth0.com/blog/avocado-labs/"
+  },
+  {
+    "title": "A Look at WebAuthn Resident Credentials",
+    "publication": "Auth0",
+    "date": "2019-08-30",
+    "url": "https://auth0.com/blog/a-look-at-webauthn-resident-credentials/"
+  },
+  {
+    "title": "Enhancing webauthn.me with the Online Debugger Tool",
+    "publication": "Auth0",
+    "date": "2019-08-27",
+    "url": "https://auth0.com/blog/enhancing-webauthn-me-with-the-online-debugger-tool/"
+  },
+  {
+    "title": "What Are Refresh Tokens and How to Use Them Securely",
+    "publication": "Auth0",
+    "date": "2015-10-07",
+    "url": "https://auth0.com/blog/refresh-tokens-what-are-they-and-when-to-use-them/"
+  }
+]

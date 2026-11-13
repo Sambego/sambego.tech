@@ -1,0 +1,54 @@
+[
+  {
+    "title": "JSON Web Tokens",
+    "url": "https://jwt.sambego.tech"
+  },
+  {
+    "title": "Passwordless",
+    "url": "https://1990.sambego.tech"
+  },
+  {
+    "title": "Webauthn",
+    "url": "https://webauthn.sambego.tech"
+  },
+  {
+    "title": "Web Cryptography",
+    "url": "https://jose.sambego.tech"
+  },
+  {
+    "title": "Access Control",
+    "url": "https://ac.sambego.tech"
+  },
+  {
+    "title": "Access Control 2",
+    "url": "http://slides.sambego.tech/paradigm-shift"
+  },
+  {
+    "title": "Beyond OAuth 2.0",
+    "url": "http://bearer.sambego.tech"
+  },
+  {
+    "title": "Auth for AI Agents",
+    "url": "http://slides.sambego.tech/masterkey"
+  },
+  {
+    "title": "MCP, DCR and CIMD",
+    "url": "http://slides.sambego.tech/start-linking"
+  },
+  {
+    "title": "Delegation",
+    "url": "http://slides.sambego.tech/delegation"
+  },
+  {
+    "title": "Web Audio",
+    "url": "https://audio.sambego.tech"
+  },
+  {
+    "title": "Web APIs",
+    "url": "https://go-web.sambego.tech"
+  },
+  {
+    "title": "Web APIs 2",
+    "url": "https://meow.sambego.tech"
+  }
+]
