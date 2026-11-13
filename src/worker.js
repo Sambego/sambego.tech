@@ -1,6 +1,6 @@
 // Serves the static site, plus:
 // - talks.sambego.tech → /data/talks.json
-// - / or /index.html requested as application/json → index.json with all $refs merged in
+// - /index.json, and / or /index.html requested as application/json → index.json with all $refs merged in
 const HOST_FILES = {
   "talks.sambego.tech": "/data/talks.json",
 };
@@ -32,6 +32,13 @@ async function resolveRefs(value, base, env) {
   return value;
 }
 
+async function mergedIndex(url, env, headers = {}) {
+  const data = await loadJson(new URL("/index.json", url), env);
+  return new Response(JSON.stringify(data, null, 2) + "\n", {
+    headers: { "Content-Type": "application/json; charset=utf-8", ...headers },
+  });
+}
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
@@ -43,12 +50,13 @@ export default {
       return env.ASSETS.fetch(new Request(url, request));
     }
 
+    if (url.pathname === "/index.json") {
+      return mergedIndex(url, env);
+    }
+
     if (INDEX_PATHS.has(url.pathname)) {
       if (wantsJson(request)) {
-        const data = await loadJson(new URL("/index.json", url), env);
-        return new Response(JSON.stringify(data, null, 2) + "\n", {
-          headers: { "Content-Type": "application/json; charset=utf-8", Vary: "Accept, Content-Type" },
-        });
+        return mergedIndex(url, env, { Vary: "Accept, Content-Type" });
       }
       const response = await env.ASSETS.fetch(request);
       const headers = new Headers(response.headers);
