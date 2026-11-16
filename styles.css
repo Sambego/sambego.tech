@@ -41,8 +41,13 @@ details:not([open]) > summary::before {
   content: "▸";
 }
 
-/* Hovering an object/array's first line highlights the whole block, closing bracket included. */
-details:has(> summary:hover) {
+/*
+ * Hovering anywhere inside an object/array highlights that block (only the
+ * innermost one). The root block covers the whole page, so it only highlights
+ * from its own first line.
+ */
+details:has(> summary:hover),
+details details:hover:not(:has(details:hover)) {
   background: rgba(255, 255, 255, 0.06);
 }
 
