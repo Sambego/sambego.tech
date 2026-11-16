@@ -41,7 +41,8 @@ details:not([open]) > summary::before {
   content: "▸";
 }
 
-summary:hover {
+/* Hovering an object/array's first line highlights the whole block, closing bracket included. */
+details:has(> summary:hover) {
   background: rgba(255, 255, 255, 0.06);
 }
 
